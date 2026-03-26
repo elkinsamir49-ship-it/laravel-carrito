@@ -54,12 +54,12 @@
 
 
 <div class="resumen">
-    <form action="/procesar" method="post">
+    <form action="/checkout" method="post">
         <div id="product">
         
       </div> 
          <button type="submit">Procesar Compra</button>
-         
+         @csrf
     </form>
 </div>
 <script>
